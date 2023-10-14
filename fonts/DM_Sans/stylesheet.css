@@ -1,0 +1,35 @@
+/*Thin / Hair	100*/
+/*Extra Light	200*/
+/*Light	300*/
+/*Regular	400*/
+/*Medium	500*/
+/*Semi Bold	600*/
+/*Bold	700*/
+/*Extra Bold	800*/
+/*Black / Heavy / Ultra	900*/
+
+/*700, 500, 400*/
+@font-face {
+    font-family: 'DM Sans';
+    src: url('./static/DMSans-Regular.ttf');
+    src: local('DM Sans Regular'), local('DM Sans-Regular'),
+    url('./static/DMSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DM Sans';
+    src: url('./static/DMSans-Medium.ttf');
+    src: local('DM Sans Medium'), local('DM Sans-Medium'),
+    url('./static/DMSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DM Sans';
+    src: url('./static/DMSans-Bold.ttf');
+    src: local('DM Sans Bold'), local('DM Sans-Bold'),
+    url('./static/DMSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
