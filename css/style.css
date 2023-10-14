@@ -1,0 +1,21 @@
+@import "banner.css";
+@import "navigation.css";
+@import "fonts/DM_Sans/stylesheet.css";
+:root
+{
+    --font-family: 'DM Sans';
+    --banner-text-color: #FFF;
+    --links-color: #4338CA;
+    --titles-color: #000000;
+    --cards-titles: #111827;
+    --subtitles-color: #9CA3AF;
+    --company-logo-color: #6B7280;
+    --border-color: #D1D5DB;
+}
+.main-container
+{
+    font-family: var(--font-family);
+    margin: 0 auto;
+    position: relative;
+
+}

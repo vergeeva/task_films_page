@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de11b3c4-a632-418c-9e32-79c3a8f71676" name="Changes" comment="" />
+    <list default="true" id="de11b3c4-a632-418c-9e32-79c3a8f71676" name="Changes" comment="">
+      <change beforePath="D:/КУРСЫ/task_films_page/.idea/workspace.xml" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/css/style.css" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/css/style.css" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/index.html" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,14 +20,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/КУРСЫ/task_films_page" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\Program Files\php\8_2_3\php.exe" />
   <component name="ProjectId" id="2WkLyNtizPsYKOBnLQ9vZgeppp8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,6 +54,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\КУРСЫ\task_films_page\fonts\DM_Sans" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\КУРСЫ\task_films_page\img\interface" />
+      <recent name="D:\КУРСЫ\task_films_page\img\persons" />
+      <recent name="D:\КУРСЫ\task_films_page\img\films" />
+      <recent name="D:\КУРСЫ\task_films_page\img" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697271884313</updated>
-      <workItem from="1697271885327" duration="4278000" />
+      <workItem from="1697271885327" duration="10004000" />
     </task>
     <servers />
   </component>

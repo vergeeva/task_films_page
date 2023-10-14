@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-  <link rel="stylesheet" href="./fonts/DM_Sans/stylesheet.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="main-container">
 <header class="main-header">
     <nav class="main-navigation">
         <div class="logo-container">
-            <div class="logo-picture"></div>
-            <div class="logo-name"></div>
+            <div class="logo-picture">
+                <img src="./img/logo/site_logo.svg" width="50" height="50" alt="Логотип сайта">
+            </div>
+            <div class="logo-name">Movie</div>
         </div>
         <div class="search-container">
-            <input type="text" placeholder="Что посмотрим сегодня?">
+            <input type="text" class="input-search" placeholder="Что посмотрим сегодня?">
             <span class="search-icon"></span>
         </div>
         <div class="auth-menu-container">
@@ -28,21 +29,24 @@
             <span class="film-name">Все везде и сразу</span>
             <div class="rating-container">
                 <div class="imdb-statistic">
-                    <img src="" alt="Логотип IMDb" class="imdb-logo">
+                    <img src="./img/logo/imdb.png" alt="Логотип IMDb" class="imdb-logo">
+                    <div class="statistic">86.0/100</div>
                 </div>
                 <div class="kp-statistic">
                     <div class="kp-statistic">
-                        <img src="" alt="Логотип Кинопоиска" class="imdb-logo">
+                        <img src="./img/logo/КиноПоиск.png" alt="Логотип КиноПоиска" class="imdb-logo">
+                        <div class="statistic">97%</div>
                     </div>
                 </div>
             </div>
-            <div class="film-short-caption"></div>
+            <div class="film-short-caption">Судьба мультивселенной — в руках владелицы прачечной. Лучший фильм, режиссер и еще пять «Оскаров»</div>
             <button class="btn-watch-trailer">
                 <span class="start-icon"></span>
+                Трейлер
             </button>
         </div>
         <div class="banner-wrapper">
-            <img src="" alt="Баннер фильма">
+            <img src="./img/poster.png" alt="Баннер фильма">
         </div>
     </section>
     <section class="films-slider-section"></section>
@@ -51,7 +55,21 @@
     <section class="persons-slider-section"></section>
 </main>
 <footer>
-
+<div class="social-media">
+    <img src="./img/logo/vk.svg" alt="Логотип ВК" class="vk-icon">
+    <img src="./img/logo/youtube.svg" alt="Логотип Ютуба" class="youtube-icon">
+    <img src="./img/logo/telegram.svg" alt="Логотип Телеграма" class="telegram-icon">
+</div>
+<div class="footer-nav">
+    <span class="footer-nav-item">Условия использования</span>
+    <span class="footer-nav-item">Политика конфиденциальности</span>
+    <span class="footer-nav-item">Для прессы</span>
+</div>
+<div class="company-dev">
+    <span>
+        © 2023 Xpage
+    </span>
+</div>
 </footer>
 <script src="./js/main.js"></script>
 </body>

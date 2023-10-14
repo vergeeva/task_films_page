@@ -1,0 +1,30 @@
+.main-navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-container{
+    display: flex;
+    column-gap: 24px;
+}
+.search-container{
+    position: relative;
+}
+.input-search
+{
+    color: var(--banner-text-color);
+    width: 525px;
+    padding: 6px 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    border-radius: 6px;
+    border: 2px solid var(--border-color);
+}
+
+.search-icon
+{
+    background: url("/img/interface/search.svg") no-repeat center;
+    background-size: cover;
+    position: absolute;
+}
