@@ -20,6 +20,7 @@
     line-height: 50px;
     position: relative;
     cursor: pointer;
+    margin-right: 25px;
 }
 .show-more::after
 {
@@ -34,13 +35,31 @@
     display: flex;
     column-gap: 80px;
     padding: 0 98px ;
+    position: relative;
 }
-
+.cards-container::before{
+    content: url("/img/interface/left-arrow.svg");
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 30%;
+    left: 34px;
+    cursor: pointer;
+}
+.cards-container::after{
+    content: url("/img/interface/right_arrow.svg");
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 30%;
+    right: 34px;
+    cursor: pointer;
+}
 .card{
     display: grid;
-    row-gap: 12px;
     position: relative;
     width: 250px;
+    row-gap: 12px;
 }
 .like-icon
 {
@@ -91,4 +110,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.card-poster{
+    max-height: 370px;
 }

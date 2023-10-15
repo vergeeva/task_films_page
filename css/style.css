@@ -34,3 +34,9 @@
 .films-slider-section{
     margin-top: 70px;
 }
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+}
