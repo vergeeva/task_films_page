@@ -1,0 +1,94 @@
+.slider-header{
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 98px;
+    margin-bottom: 44px;
+}
+.slider-name{
+    color: var(--titles-color);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.show-more{
+    color: var(--links-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    position: relative;
+    cursor: pointer;
+}
+.show-more::after
+{
+    content: url("/img/interface/link_arrow.svg");
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 3px;
+    right: -30px;
+}
+.cards-container{
+    display: flex;
+    column-gap: 80px;
+    padding: 0 98px ;
+}
+
+.card{
+    display: grid;
+    row-gap: 12px;
+    position: relative;
+    width: 250px;
+}
+.like-icon
+{
+    background: url("/img/interface/ellipse_like.svg") no-repeat center;
+    position: absolute;
+    top:12px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+.heart-icon
+{
+    background: url("/img/interface/heart.svg") no-repeat center;
+    position: absolute;
+    top:5px;
+    right: 5px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    cursor: pointer;
+}
+.card-info{
+    display: grid;
+    row-gap: 12px;
+}
+.card-statistics{
+    display: flex;
+    column-gap: 98px;
+}
+.card-movie-name{
+    color: var(--cards-titles);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.card-statistic{
+    color: var(--cards-titles);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 100% */
+}
+.card-genres, .card-country{
+    color: var(--subtitles-color);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

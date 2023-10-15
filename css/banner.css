@@ -1,5 +1,81 @@
+.banner-section{
+    height: 433px;
+}
 .banner-wrapper{
     position: absolute;
     top: 0;
+    width: 100%;
     z-index: -1;
+    background: rgba(17, 17, 17);
+}
+.banner-section{
+    font-family: var(--font-family, sans-serif);
+}
+.banner-content
+{
+    margin-top: 93px;
+    padding: 22px 98px 0;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.banner-image{
+    opacity: 35%;
+}
+
+.film-name{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    word-break: break-word;
+}
+.rating-container{
+    display: flex;
+    column-gap: 24px;
+}
+.imdb-statistic, .kp-statistic{
+    display: flex;
+    column-gap: 10px;
+}
+.statistic{
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+.film-short-caption{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+.btn-watch-trailer
+{
+    padding: 6px 16px 6px 44px;
+    position: relative;
+    border-radius: 6px;
+    background: var(--links-color);
+    color: var(--banner-text-color, #FFF);
+    width: 125px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+}
+.start-icon{
+    background: url("/img/interface/play.svg") no-repeat center;
+    position: absolute;
+    top:8px;
+    left: 16px;
+    width: 20px;
+    height: 20px;
 }

@@ -1,6 +1,8 @@
 .main-navigation{
+    font-family: var(--font-family);
     display: flex;
     justify-content: space-between;
+    padding: 22px 98px 0;
 }
 .logo-container{
     display: flex;
@@ -17,14 +19,65 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     border-radius: 6px;
     border: 2px solid var(--border-color);
+    background-color: inherit;
+    outline: none;
 }
 
+.input-search::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: var(--banner-text-color);
+}
+.input-search:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: var(--banner-text-color);
+    opacity:  1;
+}
+.input-search::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: var(--banner-text-color);
+    opacity:  1;
+}
+.input-search:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--banner-text-color);
+}
+.input-search::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--banner-text-color);
+}
+
+.input-search::placeholder { /* Most modern browsers support this now. */
+    color: var(--banner-text-color);
+}
+
+.logo-name{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
 .search-icon
 {
     background: url("/img/interface/search.svg") no-repeat center;
-    background-size: cover;
     position: absolute;
+    top:12px;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+}
+.link-to-auth{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+}
+.auth-menu-container{
+    display: flex;
+    column-gap: 27px;
+}
+.menu-burger{
+    background: url("/img/interface/menu.svg") no-repeat center;
+    width: 36px;
+    height: 36px;
 }
