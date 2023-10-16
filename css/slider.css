@@ -24,7 +24,7 @@
 }
 .show-more::after
 {
-    content: url("/img/interface/link_arrow.svg");
+    content: url("../img/interface/link_arrow.svg");
     width: 20px;
     height: 20px;
     position: absolute;
@@ -38,7 +38,7 @@
     position: relative;
 }
 .cards-container::before{
-    content: url("/img/interface/left-arrow.svg");
+    content: url("../img/interface/left-arrow.svg");
     width: 48px;
     height: 48px;
     position: absolute;
@@ -47,7 +47,7 @@
     cursor: pointer;
 }
 .cards-container::after{
-    content: url("/img/interface/right_arrow.svg");
+    content: url("../img/interface/right_arrow.svg");
     width: 48px;
     height: 48px;
     position: absolute;
@@ -63,7 +63,7 @@
 }
 .like-icon
 {
-    background: url("/img/interface/ellipse_like.svg") no-repeat center;
+    background: url("../img/interface/ellipse_like.svg") no-repeat center;
     position: absolute;
     top:12px;
     right: 10px;
@@ -72,7 +72,7 @@
 }
 .heart-icon
 {
-    background: url("/img/interface/heart.svg") no-repeat center;
+    background: url("../img/interface/heart.svg") no-repeat center;
     position: absolute;
     top:5px;
     right: 5px;

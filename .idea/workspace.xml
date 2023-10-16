@@ -4,16 +4,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de11b3c4-a632-418c-9e32-79c3a8f71676" name="Changes" comment="баннер почти готов, шрифт не работает, карточка есть, нужно размножить блоки">
+    <list default="true" id="de11b3c4-a632-418c-9e32-79c3a8f71676" name="Changes" comment="нужно выровнять страницу и поправить карточки">
+      <change afterPath="D:/КУРСЫ/task_films_page/fonts/OpenSans/OpenSans-Bold.ttf" afterDir="false" />
+      <change afterPath="D:/КУРСЫ/task_films_page/fonts/OpenSans/OpenSans-Medium.ttf" afterDir="false" />
+      <change afterPath="D:/КУРСЫ/task_films_page/fonts/OpenSans/OpenSans-Regular.ttf" afterDir="false" />
+      <change afterPath="D:/КУРСЫ/task_films_page/img/logo/kp.png" afterDir="false" />
       <change beforePath="D:/КУРСЫ/task_films_page/.idea/workspace.xml" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/.idea/workspace.xml" afterDir="false" />
       <change beforePath="D:/КУРСЫ/task_films_page/css/banner.css" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/css/banner.css" afterDir="false" />
       <change beforePath="D:/КУРСЫ/task_films_page/css/footer.css" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/css/footer.css" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/css/navigation.css" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/css/navigation.css" afterDir="false" />
       <change beforePath="D:/КУРСЫ/task_films_page/css/slider.css" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/css/slider.css" afterDir="false" />
       <change beforePath="D:/КУРСЫ/task_films_page/css/style.css" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/css/style.css" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/DMSans-Italic-VariableFont_opsz,wght.ttf" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/DMSans-VariableFont_opsz,wght.ttf" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-Black.ttf" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-Bold.ttf" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/fonts/DMSans/DMSans-Bold.ttf" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-Italic.ttf" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-Light.ttf" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-Medium.ttf" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/fonts/DMSans/DMSans-Medium.ttf" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-Regular.ttf" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/fonts/DMSans/DMSans-Regular.ttf" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-Thin.ttf" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/static/DMSans-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/fonts/DMSans/stylesheet.css" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/fonts/stylesheet.css" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/cartoons/masha.png" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/cartoons/masha.png" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/cartoons/red_shoes.png" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/cartoons/red_shoes.png" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/cartoons/shrek.png" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/cartoons/shrek.png" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/cartoons/soul.png" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/cartoons/soul.png" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/films/barbie.png" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/films/barbie.png" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/films/green_mile.png" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/films/green_mile.png" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/films/ledy_bug.png" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/films/ledy_bug.png" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/films/opengamer.png" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/films/opengamer.png" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/interface/ellipse_like.svg" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/interface/ellipse_like.svg" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/interface/heart.svg" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/interface/heart.svg" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/interface/left-arrow.svg" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/interface/left-arrow.svg" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/interface/link_arrow.svg" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/interface/link_arrow.svg" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/interface/menu.svg" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/interface/menu.svg" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/interface/play.svg" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/interface/play.svg" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/interface/right_arrow.svg" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/interface/right_arrow.svg" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/interface/search.svg" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/interface/search.svg" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/logo/imdb.png" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/logo/imdb.png" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/logo/site_logo.svg" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/logo/site_logo.svg" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/logo/telegram.svg" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/logo/telegram.svg" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/logo/vk.svg" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/logo/vk.svg" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/logo/youtube.svg" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/logo/youtube.svg" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/logo/КиноПоиск.png" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/persons/actor1.png" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/persons/actor1.png" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/persons/actor2.png" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/persons/actor2.png" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/persons/actor3.png" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/persons/actor3.png" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/persons/actor4.png" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/persons/actor4.png" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/poster.svg" beforeDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/serials/fathers_daughters.png" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/serials/fathers_daughters.png" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/serials/parks.png" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/serials/parks.png" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/serials/titans.png" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/serials/titans.png" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/img/serials/yelow_stone.png" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/img/serials/yelow_stone.png" afterDir="false" />
       <change beforePath="D:/КУРСЫ/task_films_page/index.html" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/index.html" afterDir="false" />
+      <change beforePath="D:/КУРСЫ/task_films_page/js/components/banner.js" beforeDir="false" />
       <change beforePath="D:/КУРСЫ/task_films_page/js/components/slider/card.js" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/js/components/slider/card.js" afterDir="false" />
       <change beforePath="D:/КУРСЫ/task_films_page/js/components/slider/slider.js" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/js/components/slider/slider.js" afterDir="false" />
-      <change beforePath="D:/КУРСЫ/task_films_page/js/components/slider/slider_header.js" beforeDir="false" afterPath="D:/КУРСЫ/task_films_page/js/components/slider/slider_header.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +103,13 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/nastya/PhpstormProjects/projects_work",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "last_opened_file_path": "D:/КУРСЫ/task_films_page/img",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,14 +121,29 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\КУРСЫ\task_films_page\fonts\DM_Sans" />
+      <recent name="D:\КУРСЫ\task_films_page\img" />
+      <recent name="D:\КУРСЫ\task_films_page\img\serials" />
+      <recent name="D:\КУРСЫ\task_films_page\img\persons" />
+      <recent name="D:\КУРСЫ\task_films_page\img\logo" />
+      <recent name="D:\КУРСЫ\task_films_page\img\interface" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\КУРСЫ\task_films_page\fonts\DMSans" />
+      <recent name="D:\КУРСЫ\task_films_page\fonts" />
       <recent name="D:\КУРСЫ\task_films_page\img\interface" />
       <recent name="D:\КУРСЫ\task_films_page\img\persons" />
       <recent name="D:\КУРСЫ\task_films_page\img\films" />
-      <recent name="D:\КУРСЫ\task_films_page\img" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://vergeeva.anastasiya.students.xpage.dev/index.html">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,7 +155,8 @@
       <updated>1697271884313</updated>
       <workItem from="1697271885327" duration="10037000" />
       <workItem from="1697354045818" duration="11936000" />
-      <workItem from="1697377253869" duration="6445000" />
+      <workItem from="1697377253869" duration="6703000" />
+      <workItem from="1697426084223" duration="4467000" />
     </task>
     <task id="LOCAL-00001" summary="начало положено">
       <option name="closed" value="true" />
@@ -96,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697365656740</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="нужно выровнять страницу и поправить карточки">
+      <option name="closed" value="true" />
+      <created>1697384008262</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697384008262</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +191,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="начало положено" />
     <MESSAGE value="баннер почти готов, шрифт не работает, карточка есть, нужно размножить блоки" />
-    <option name="LAST_COMMIT_MESSAGE" value="баннер почти готов, шрифт не работает, карточка есть, нужно размножить блоки" />
+    <MESSAGE value="нужно выровнять страницу и поправить карточки" />
+    <option name="LAST_COMMIT_MESSAGE" value="нужно выровнять страницу и поправить карточки" />
   </component>
 </project>

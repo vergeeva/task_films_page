@@ -20,10 +20,14 @@
     column-gap: 48px;
 }
 .company-dev{
+    font-family: DM Sans;
     color: var(--company-logo-color);
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-bottom: 27px;
+}
+.vk-icon{
+    margin-top: 3px;
 }

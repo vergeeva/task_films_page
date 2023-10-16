@@ -1,0 +1,54 @@
+/*Thin / Hair	100*/
+/*Extra Light	200*/
+/*Light	300*/
+/*Regular	400*/
+/*Medium	500*/
+/*Semi Bold	600*/
+/*Bold	700*/
+/*Extra Bold	800*/
+/*Black / Heavy / Ultra	900*/
+
+/*700, 500, 400*/
+@font-face {
+    font-family: "DM Sans";
+    src: url(DMSans/DMSans-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "DM Sans";
+    src: url(DMSans/DMSans-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "DM Sans";
+    src: url(DMSans/DMSans-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(OpenSans/OpenSans-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(OpenSans/OpenSans-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(OpenSans/OpenSans-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}

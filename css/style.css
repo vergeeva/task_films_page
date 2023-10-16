@@ -1,4 +1,4 @@
-@import "../fonts/DMSans/stylesheet.css";
+@import "../fonts/stylesheet.css";
 @import "banner.css";
 @import "navigation.css";
 @import "footer.css";
@@ -6,7 +6,7 @@
 
 :root
 {
-    --font-family: DM Sans;
+    --font-family: Open Sans;
     --banner-text-color: #FFF;
     --links-color: #4338CA;
     --titles-color: #000000;
@@ -23,12 +23,17 @@
     display: flex;
     margin: 0;
     padding: 0;
-    max-width: var(--container-width);
-    flex-direction: column;
     justify-content: center;
     justify-items: center;
     position: relative;
     background: rgb(241, 238, 238);
+}
+
+.container
+{
+    display: flex;
+    max-width: var(--container-width);
+    flex-direction: column;
 }
 
 .films-slider-section{

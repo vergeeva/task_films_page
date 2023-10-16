@@ -4,7 +4,6 @@
 .banner-wrapper{
     position: absolute;
     top: 0;
-    width: 100%;
     z-index: -1;
     background: rgba(17, 17, 17);
     height: 600px;
@@ -73,7 +72,7 @@
     outline: inherit;
 }
 .start-icon{
-    background: url("/img/interface/play.svg") no-repeat center;
+    background: url("../img/interface/play.svg") no-repeat center;
     position: absolute;
     top:8px;
     left: 16px;

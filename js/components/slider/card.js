@@ -29,7 +29,7 @@ function getCard(cardProps)
                         </div>
                         <div class="kp-statistic">
                             <div class="kp-statistic">
-                                <img src="./img/logo/КиноПоиск.png" alt="Логотип КиноПоиска" class="imdb-logo">
+                                <img src="./img/logo/kp.png" alt="Логотип КиноПоиска" class="imdb-logo">
                                 <div class="card-statistic">${cardProps["stat"]["kp"]}%</div>
                             </div>
                         </div>
