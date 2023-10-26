@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="gigaschool" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="gigaschool">
+        <serverdata>
+          <mappings>
+            <mapping local="D:/КУРСЫ/task_films_page" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

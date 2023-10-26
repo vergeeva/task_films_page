@@ -37,28 +37,30 @@
     padding: 0 98px ;
     position: relative;
 }
-.cards-container::before{
-    content: url("../img/interface/left-arrow.svg");
+.slider__left-arrow{
     width: 48px;
     height: 48px;
     position: absolute;
     top: 30%;
     left: 34px;
     cursor: pointer;
+    border: none;
+    background: transparent url("../img/interface/left-arrow.svg") no-repeat;
 }
-.cards-container::after{
-    content: url("../img/interface/right_arrow.svg");
+.slider__right-arrow{
     width: 48px;
     height: 48px;
     position: absolute;
     top: 30%;
     right: 34px;
     cursor: pointer;
+    border: none;
+    background: transparent url("../img/interface/right_arrow.svg") no-repeat;
 }
 .card{
     display: grid;
     position: relative;
-    width: 250px;
+    width: 250px !important;
     row-gap: 12px;
 }
 .like-icon
@@ -85,6 +87,7 @@
 .card-info{
     display: grid;
     row-gap: 12px;
+    margin-top: 12px;
 }
 .card-statistics{
     display: flex;
@@ -110,8 +113,26 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    max-width: calc(100% - 5px);
+    -webkit-line-clamp: 1; /* количество строк */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .card-poster{
     max-height: 370px;
+}
+.imdb-logo{
+    height: 17px;
+}
+.swiper-container{
+    max-width: 1400px;
 }

@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="shortcut icon" href="./img/logo/site_logo.svg" type="image/x-icon" />
-  <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 </head>
 <body class="main-container">
 <div class="container">
@@ -29,29 +34,6 @@
     </header>
     <main class="main-section">
         <section class="banner-section">
-            <div class="banner-content">
-                <span class="film-name">Все везде и сразу</span>
-                <div class="rating-container">
-                    <div class="imdb-statistic">
-                        <img src="./img/logo/imdb.png" alt="Логотип IMDb" class="imdb-logo">
-                        <div class="statistic">86.0/100</div>
-                    </div>
-                    <div class="kp-statistic">
-                        <div class="kp-statistic">
-                            <img src="img/logo/kp.png" alt="Логотип КиноПоиска" class="imdb-logo">
-                            <div class="statistic">97%</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="film-short-caption">Судьба мультивселенной — в руках владелицы прачечной. Лучший фильм, режиссер и еще пять «Оскаров»</div>
-                <button class="btn-watch-trailer">
-                    <span class="start-icon"></span>
-                    Трейлер
-                </button>
-            </div>
-            <div class="banner-wrapper">
-                <img src="./img/poster.jpg" alt="Баннер фильма" class="banner-image">
-            </div>
         </section>
         <section class="films-slider-section"></section>
         <section class="serials-slider-section"></section>
@@ -74,9 +56,32 @@
         </div>
     </footer>
 </div>
+<section class="loader">
+    <span class="loader__spinner"></span>
+    <h3 class="loader__title">Данные загружаются...</h3>
+    <button class="btn-reset loader__button loader__button-hidden">Закрыть</button>
+</section>
+<div class="mdl__window-body">
+    <div class="mdl__content">
+        <div class="mdl__header">
+            <span class="mdl__close-sigh">&times;</span>
+            <span class="mdl__title">Трейлер фильма</span>
+        </div>
+        <div class="mdl__body">
+            <iframe class="mdl-body__frame-trailer" allowfullscreen>
+
+            </iframe>
+        </div>
+        <div class="mdl__footer">
+            <button class="mdl__go-detail-page" type="button">Перейти к фильму</button>
+        </div>
+    </div>
+</div>
 <script src="./js/main.js"></script>
 <script src="./js/components/slider/card.js"></script>
 <script src="./js/components/slider/slider_header.js"></script>
 <script src="./js/components/slider/slider.js"></script>
+<script src="./js/components/banner/banner.js"></script>
+<script src="./js/components/connect/connect.js"></script>
 </body>
 </html>

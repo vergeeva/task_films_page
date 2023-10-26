@@ -1,0 +1,104 @@
+.mdl__window-body
+{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    font-family: "Exo 2", sans-serif;
+    padding-bottom: 200px;
+    max-height: calc(100vh);
+    overflow-y: auto;
+}
+.mdl__content
+{
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 30px 50px;
+    border-radius: 2px;
+    border: 1px solid black;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+.mdl__header
+{
+    padding-bottom: 15px;
+    background-color: transparent;
+    color: black;
+}
+.mdl__close-sigh
+{
+    color: black;
+    position: absolute;
+    top: 7px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.mdl__close-sigh:hover,
+.mdl__close-sigh:focus {
+    color: #6c6969;
+    text-decoration: none;
+    cursor: pointer;
+}
+.mdl__title
+{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-content: center;
+}
+.mdl__body
+{
+    display: grid;
+    row-gap: 15px;
+}
+.mdl__footer
+{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.mdl__go-detail-page
+{
+    padding: 6px 16px;
+    position: relative;
+    border-radius: 6px;
+    background: var(--links-color);
+    color: var(--banner-text-color, #FFF);
+    width: 200px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+}
+.mdl-body__frame-trailer{
+    width: 1280px;
+    height: 720px;
+}
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}

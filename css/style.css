@@ -3,6 +3,7 @@
 @import "navigation.css";
 @import "footer.css";
 @import "slider.css";
+@import "modal_window.css";
 
 :root
 {
@@ -44,4 +45,71 @@
     display: flex;
     flex-direction: column;
     row-gap: 70px;
+}
+.loader {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 200;
+    padding-bottom: 15%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-transition: opacity 0.3s, visibility 0.3s;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+.loader-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+.loader__spinner {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 8px solid var(--banner-text-color);
+    border-right: 8px solid transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-animation: 1s linear infinite rotation;
+    animation: 1s linear infinite rotation;
+}
+.loader__title {
+    color: var(--banner-text-color);
+    font-size: 28px;
+    line-height: 120%;
+    font-weight: 600;
+    margin-top: 24px;
+    text-align: center;
+    padding: 0 20px;
+    max-width: 900px;
+    margin-bottom: 20px;
+}
+.loader__button {
+    background: var(--links-color);
+    padding: 10px 34px;
+    color: #fff;
+    border-radius: 6px;
+    display: none;
+}
+.loader__button-visible {
+    display: block;
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }

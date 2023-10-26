@@ -11,8 +11,16 @@ function getCard(cardProps)
                 genre += cardProps["genres"][i] + ", ";
             }
             genre += cardProps["genres"][cardProps["genres"].length - 1];
+
+            let country = "";
+            for (let i = 0; i < cardProps["country"].length; i++ )
+            {
+                country += cardProps["country"][i] + ", ";
+            }
+            country += cardProps["year"];
+
             cardHtml =
-            `<div class="card">
+            `<div class="card swiper-slide">
                 <div class="card-poster">
                     <img src="${cardProps["photo_url"]}" alt="Постер фильма" width="250px" height="370px">
                 </div>
@@ -20,21 +28,21 @@ function getCard(cardProps)
                     <span class="heart-icon"></span>
                 </div>
                 <div class="card-info">
-                    <div class="card-country">${cardProps["country"]}</div>
+                    <div class="card-country"><span>${country}</span></div>
                     <div class="card-movie-name">${cardProps["filmName"]}</div>
                     <div class="card-statistics">
                         <div class="imdb-statistic">
                             <img src="./img/logo/imdb.png" alt="Логотип IMDb" class="imdb-logo">
-                            <div class="card-statistic">${cardProps["stat"]["imdb"]}/100</div>
+                            <div class="card-statistic">${cardProps["stat"]["imdb"]}/10</div>
                         </div>
                         <div class="kp-statistic">
                             <div class="kp-statistic">
                                 <img src="./img/logo/kp.png" alt="Логотип КиноПоиска" class="imdb-logo">
-                                <div class="card-statistic">${cardProps["stat"]["kp"]}%</div>
+                                <div class="card-statistic">${cardProps["stat"]["kp"].toFixed(2)}</div>
                             </div>
                         </div>
                     </div>
-                    <div class="card-genres">${genre}</div>
+                    <div class="card-genres"><span>${genre}</span></div>
                 </div>
             </div>`;
             break;
@@ -42,14 +50,14 @@ function getCard(cardProps)
         case "person":
         {
             cardHtml =
-                `<div class="card">
-                <div class="card-poster">
-                    <img src="${cardProps["photo_url"]}" alt="Постер фильма" width="250px" height="370px">
-                </div>
-                <div class="card-info">
-                    <div class="card-movie-name">${cardProps["actorName"]}</div>
-                </div>
-            </div>`;
+                `<div class="card swiper-slide">
+                    <div class="card-poster">
+                        <img src="${cardProps["photo_url"]}" alt="Фотография персоны" width="250px" height="370px">
+                    </div>
+                    <div class="card-info">
+                        <div class="card-movie-name">${cardProps["actorName"]}</div>
+                    </div>
+                </div>`;
             break;
         }
     }
