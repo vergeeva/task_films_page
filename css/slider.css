@@ -1,3 +1,7 @@
+.swiper-container
+{
+    position: relative;
+}
 .slider-header{
     font-family: var(--font-family);
     display: flex;
@@ -35,7 +39,6 @@
     display: flex;
     column-gap: 80px;
     padding: 0 98px ;
-    position: relative;
 }
 .slider__left-arrow{
     width: 48px;

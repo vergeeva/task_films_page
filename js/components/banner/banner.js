@@ -16,7 +16,7 @@ function drawBanner(containerName, bannerProps)
                     </div>
                 </div>
             </div>
-            <div class="film-short-caption">${bannerProps["filmShortCaption"]}</div>
+            <div class="film-short-caption"><span>${bannerProps["filmShortCaption"]}</span></div>
             <button class="btn-watch-trailer">
                 <span class="start-icon"></span>
                 Трейлер

@@ -223,7 +223,7 @@ async function createBanner()
             "stat": {"imdb": bannerData["rating"]["imdb"], "kp": bannerData["rating"]["kp"] },
             "bannerImgUrl": bannerData.backdrop?.url !== null ? bannerData.backdrop?.url : bannerData.poster?.url,
             "trailer": {"link": bannerData.videos?.trailers[0]?.url, "title": bannerData.videos?.trailers[0]?.name},
-            "filmShortCaption": bannerData["description"]
+            "filmShortCaption": bannerData["description"] ? bannerData["description"] : "Описание в отпуске"
         };
     return banner;
 }
@@ -232,7 +232,7 @@ createBanner().then((banner) =>
     console.log("Баннер - ", banner);
     drawBanner('banner-section', banner);
     document.querySelector(".mdl__title").innerText = banner.trailer?.title ? banner.trailer?.title : "Трейлер вышел покурить, послушайте лофи :)";
-    document.querySelector(".mdl-body__frame-trailer").setAttribute("src", banner.trailer?.link ? banner.trailer?.link : "https://www.youtube.com/live/jfKfPfyJRdk?si=kw66shtQMT6UBWgr");
+    document.querySelector(".mdl-body__frame-trailer").setAttribute("src", banner.trailer?.link ? banner.trailer?.link : "https://www.youtube.com/embed/jfKfPfyJRdk?si=gTsh4t9Q_40ld8mM");
     document.querySelector(".btn-watch-trailer").addEventListener("click", () => {
         modalWindow.style.display = "block";
     })

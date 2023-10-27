@@ -56,6 +56,18 @@
     font-style: normal;
     font-weight: 500;
     line-height: 18px;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+    -webkit-line-clamp: 12; /* количество строк */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .btn-watch-trailer
 {
